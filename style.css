@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -99,7 +98,7 @@ button:hover {
 
 /* // Responsive */
 
-@media (max-width: 900px) 
+@media (max-width: 480px) 
   {
   h2 {
     font-size: 21px;
