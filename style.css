@@ -99,42 +99,43 @@ button:hover {
 
 /* // Responsive */
 
-@media (max-width:480px){
-  h2{
-    font-size: 16px;
+@media (max-width: 480px) 
+  {
+  h2 {
+    font-size: 21px;
     margin-top: 1rem;
   }
 
-  main{
+  main {
     width: 100%;
     border-width: 5px;
+    margin: 0;
   }
-  img{
+  img {
     max-width: 67%;
   }
-  button{
-     width: 82%;
-     margin: 0.5rem auto;
-     padding: 1rem;
-     border-radius: 0.5rem;
-     font-size: 1rem;
-
-  } 
+  button {
+    width: 82%;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
   .user-guess input {
     padding: 1.2rem 1rem;
     text-align: center;
   }
 
-  h3{
-    font-size: .9rem;
+  h3 {
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: 600;
   }
-  .info{
+  .info {
     flex-direction: column;
   }
-  
-#guess-result .attempts{
-  margin-top: 9px;
-}
+
+  #guess-result .attempts {
+    margin-top: 9px;
+  }
 }
