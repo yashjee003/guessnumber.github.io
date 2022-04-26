@@ -2,9 +2,9 @@ let computerGuessNumber;
 let userGuess = [];
 let previosAttempts = 1;
 let maxAttempts = 0;
-let start = new Audio("/audio/Start.mp3");
-let gameOver = new Audio("/audio/Gameover.mp3");
-let winner = new Audio("/audio/Winner.mp3");
+let start = new Audio("audio/Start.mp3");
+let gameOver = new Audio("audio/Gameover.mp3");
+let winner = new Audio("audio/Winner.mp3");
 
 // Random Number generate
 function randomNumber() {
