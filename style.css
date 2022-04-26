@@ -110,6 +110,7 @@ button:hover {
     width: 100%;
     border-width: 5px;
     margin: 0;
+    height: max-content;
   }
   img {
     max-width: 67%;
