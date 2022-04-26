@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Montserrat:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="randomNumber()">
+    <main>
+      <!-- Welcome Screen -->
+      <section id="welcome-screen">
+        <div id="title-image">
+          <h2>Guess The Random Number Between 1-100</h2>
+          <img src="/images/game.svg" alt="logo" />
+        </div>
+
+        <div id="event_guess">
+          <h2>Select The Difficulty</h2>
+          <div class="event-buttons">
+            <button onclick="easyMode()">Easy: 10 Attempts</button>
+            <button onclick="hardMode()" id="button-child">
+              Hard: 5 Attempts
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Event Screen -->
+
+      <section id="event-screen">
+        <div id="even-button">
+          <button onclick="startNewGame()" id="event-button">New Game</button>
+        </div>
+        <div class="user-guess">
+          <h2>Your Guess</h2>
+          <input
+            type="number"
+            name="Guess"
+            id="guess-number"
+            placeholder="Enter your Guess"
+            onchange="userData()"
+            ;
+          />
+        </div>
+
+        <div id="guess-result">
+          <div class="info">
+            <h3>Number of previous attempts</h3>
+            <span class="attempts">0</span>
+          </div>
+
+          <div class="info">
+            <h3>Number of previous guesses</h3>
+            <span class="attempts" id="previous">0</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="/index.js"></script>
+  </body>
+</html>
