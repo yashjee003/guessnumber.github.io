@@ -99,7 +99,7 @@ button:hover {
 
 /* // Responsive */
 
-@media (max-width: 480px) 
+@media (max-width: 900px) 
   {
   h2 {
     font-size: 21px;
