@@ -33,6 +33,12 @@ h2 {
 h3 {
   font-size: 1rem;
 }
+h4
+{
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 20px;
+}
 .event-buttons {
   display: flex;
   flex-direction: column;
