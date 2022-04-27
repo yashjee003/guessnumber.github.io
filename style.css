@@ -16,10 +16,9 @@ main {
   margin: 2rem auto;
   border: solid black;
   border-width: 5px;
-  height: 100vh;
 }
 .welcome-screen {
-  height: 100vh;
+  height: auto;
 }
 img {
   width: 90%;
@@ -111,9 +110,7 @@ button:hover {
     width: 100%;
     border-width: 5px;
     margin: 0;
-    height: fit-content;
-    height:max-content;
-    height: auto;
+    height: 100vh;
   }
   img {
     max-width: 67%;
