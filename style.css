@@ -19,7 +19,7 @@ main {
   height: 100vh;
 }
 .welcome-screen {
-  height: auto;
+  height: 100vh;
 }
 img {
   width: 90%;
